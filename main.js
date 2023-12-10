@@ -66,11 +66,11 @@ function renderImage() {
       } else {
         if (this.x !== this.baseX) {
           let dx = this.x - this.baseX;
-          this.x -= dx / 20;
+          this.x -= dx / 12;
         }
         if (this.y !== this.baseY) {
           let dy = this.y - this.baseY;
-          this.y -= dy / 20;
+          this.y -= dy / 12;
         }
       }
 
